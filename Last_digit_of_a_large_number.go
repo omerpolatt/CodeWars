@@ -3,6 +3,7 @@ package main
 /*
 bu fonksiyon iki string sayı verip bunları üssel bir biçimde çarpıp çıkan çarpım sonucunun birler basamağını yazdırmamızı istiyordu
 ( this function gives us two string numbers and asks us to multiply them exponentially and print the first digit of the product result )
+ !! burda dikkat çekmemizi istediği konu sonucun büyük değerler çıkacağı içn Bigint türünde çevrim yapmamızı istemesidir.
 */
 import (
 	"math/big"
